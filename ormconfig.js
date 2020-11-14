@@ -1,6 +1,6 @@
 module.exports = {
   type: 'mysql',
-  url: process.env.MYSQL_UPC_BANKING_NEST_URL,
+  url: 'mysql://root:mysql@4.tcp.ngrok.io:13197/examen',
   migrations: ['dist/app/infra/migrations/*.js', 'app/infra/migrations/*.js'],
   cli: {
     migrationsDir: './app/infra/migrations',
