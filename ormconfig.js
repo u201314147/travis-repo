@@ -1,6 +1,6 @@
 module.exports = {
   type: 'mysql',
-  url: 'mysql://root:mysql@4.tcp.ngrok.io:13197/examen',
+  url: 'mysql://root:mysql@2.tcp.ngrok.io:19648/examen',
   migrations: ['dist/app/infra/migrations/*.js', 'app/infra/migrations/*.js'],
   cli: {
     migrationsDir: './app/infra/migrations',
