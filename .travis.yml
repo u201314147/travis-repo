@@ -1,16 +1,16 @@
 language: node_js
 node_js:
-  - '12'
+- '12'
 branches:
   only:
-    - main
+  - main
 deploy:
   provider: heroku
   skip_cleanup: true
   on:
     branch: main
   api_key:
-    secure: ZUUgTrUXrogM8uW4IiO3qutm4ZExyR7P58jtxe40+Z7Pi/1qOuPwtj5NoA8zFOheDMDNi8vFV5Bx0ZBbjARtQlcA03Tb+rHCwHKDSYtlvPM3EedObGTrPHFUqtlK7pWAjUsdQGxj+WjETrsP/mF6oiceVC4osTWDOlH2ZCNSwSZjw7fyINXaCNxlIeqwFXgkxdXA2OcfUFc5gsmWy8WetXPQFntgk65T6Kjm6YnlQM8Y7/9tzrkJxGKGLTsu32zlTNWXW6pwFidTD/0Ld47sVXXPN1S+foGGc/rPKErFhhKpNesMdQheMfulwMBzukjKAJwdDO49RH6nT1Pw6ZaQNOW+fn8RPyvamv/xSShIcHiS668u+6wFqC8lpgD/dGcZwXD5V6B0QdCc7gYOMhqb4auLfrCsZwZ+XpkTVi+wksl+8OfPt07turjp6XuZSVkGlhqU2ivifwdZk7EV4+g3SdnfZY4ClvMJTsK6HGhWnoU78BfAxIi1+CVOF+RwrNASjmvCVbAsky4ftS+Ypqyu7cxwonSJIH4KGZLvANpu/f3LcDQdfEd/KYaHmZWR8dvXv3daNVu++oXA8HLBezG9cDHHiw4bqTSGrtvSv8/GvSjFIQ9h/9WfP0RoXA/ks8y3HLBNInw6TmQ00aKi5tr0RnjowIy3XJwfZr5SWnqXbiU=
+    secure: HTtWhgPq11XWUwNVg91/Vx4gKvzqwMyt25J7qSACAyWA+vmGU/EOKbyJSo0/q4QDDLn+P4iyqaI/0LtY4ZtqZV/KZClnANraEcNN2KT0plrFXCAZpOnbDyVbmYQBH8TDQjRJefpd77sHM2KgJoLxonzEveQVL33CzRyxNLE244hj/gEN+FK7UGiLVZvam7TNlAVpxxcWvzkrvmch8ltwVLTnRlio9A/s7ReMVSuhOYDkZTipo0gXDT2TES8hD+D2Jti9cH2MdRLZWdlx2RANCZKOst1+UkrprqPSX4FJrejy5PXXkaHMWH1AfXM1y356h0i1JpWloDTJ2DjcPtIKoGGaQM+RmBunOIFJ4VcHRs0kbkdiv1rkfJbYtnVdb9qM3gUOg1OA/tYwPz8C9guVtW9k2EdGot6KEJ4Wrx+in2XGgj8Hv10+osZVFXhRYleEM24BJYSWOL15/OJjqFrTlirRthJDr0YvcU09viJpocSThiVcZIbpsQPDD7FIGsNSZNWbH6GujxZHIJscvYq5aEkKWUSDJ3PH3mZgOVAMwgN4NGCoQcewygv9Q7XL76+yVOoW5mLgK/2KXrrBoxFzMxYXefcQFdpOelxYSvNj7xhLSHoPd1dGnRo7MzaPlDQRq4KWKdqWJsVtdkCGvDuH0r3YloV06eX/EyOTUGHP674=
   app: banking-nest-arias-upc-heroku
 notifications:
   email:
